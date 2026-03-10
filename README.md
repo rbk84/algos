@@ -15,3 +15,9 @@
 $ npx tcs
 $ node dist/lesson-1/index.js
 ```
+
+## Тесты
+Пример запуска тестов:
+```sh
+$ npm test
+```
