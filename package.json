@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Курс «Алгоритмы и структуры данных»",
   "scripts": {
-    "test": "jest"
+    "test": "jest -- src"
   },
   "repository": {
     "type": "git",
