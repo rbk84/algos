@@ -1,5 +1,7 @@
-name: Run Tests
-on: [push, pull_request]
+name: Run tests
+on:
+  push:
+    branches: [main]
 
 jobs:
   test:
