@@ -4,7 +4,6 @@ export const findAllLCS = (str1: string, str2: string): string[] => {
 
     // cоздание таблицы DP для длин LCS
     const dp: number[][] = Array.from({ length: str1Length + 1 }, () => Array(str2Length + 1).fill(0));
-    console.log(dp);
     // заполнение таблицы DP
     for (let i = 1; i <= str1Length; i++) {
         for (let j = 1; j <= str2Length; j++) {
