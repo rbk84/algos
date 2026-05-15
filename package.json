@@ -17,8 +17,12 @@
   "homepage": "https://github.com/rbk84/algos#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@types/readline-sync": "^1.4.8",
     "jest": "^30.3.0",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
